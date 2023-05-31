@@ -14,6 +14,8 @@ h1 {
 }
 
 html body {
+  display: flex;
+  flex-direction: column;
   margin: 0;
   padding: 0;
   overflow: unset;
