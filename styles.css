@@ -119,7 +119,7 @@ main {
 }
 
 .black-text {
-  color: black;
+  color: #172b4d;
 }
 
 .green-text {
@@ -153,6 +153,9 @@ main {
   height: 19.62px;
   display: flex;
   justify-content: space-around;
+  list-style-type: none;
+  margin-block-end: 0;
+  padding-inline-start: 0;
 }
 
 #twitter {
@@ -183,4 +186,15 @@ main {
   background-image: url("images/sm-icons/angellist.png");
   width: 14.17px;
   height: 19.62px;
+}
+
+p {
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+  cursor: pointer;
 }
