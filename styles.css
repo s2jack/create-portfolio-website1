@@ -82,7 +82,7 @@ main {
   height: 48px;
 }
 
-#logo-placeholder{
+#logo-placeholder {
   margin-left: 12px;
   width: 24px;
   height: 48px;
@@ -118,8 +118,8 @@ main {
   margin-top: -494px;
 }
 
-.black-text{
-  color:black;
+.black-text {
+  color: black;
 }
 
 .green-text {
@@ -161,7 +161,7 @@ main {
   height: 19.58px;
 }
 
-#linkedin{
+#linkedin {
   background-image: url("images/sm-icons/linkedin.svg");
   width: 20px;
   height: 19.62px;
