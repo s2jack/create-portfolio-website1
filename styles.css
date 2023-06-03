@@ -140,11 +140,12 @@ main {
   font-weight: 400;
 }
 
-#sm-icons-cont {
+.sm-icons-cont {
   margin-top: 22.89px;
   width: 170.17px;
   height: 19.62px;
   display: flex;
+  align-items: center;
   justify-content: space-around;
   list-style-type: none;
   margin-block-end: 0;
@@ -578,5 +579,143 @@ button {
   background-image: url("images/about-bg2.png");
 }
 
+/*#endregion */
+
+/*#region Form Section */
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 24px;
+  gap: 58px;
+  position: absolute;
+  width: 100%;
+  height: 879px;
+  top: 5374px;
+}
+
+#form-message {
+  overflow-wrap: break-word;
+  width: 327px;
+  height: 363px;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  width: 327px;
+  height: 427px;
+}
+
+#email::placeholder, #name::placeholder {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #6b778c;
+  font-style: italic; 
+}
+
+#message::placeholder {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #42526e;
+  position: absolute;
+  padding: 12px;
+}
+
+#email, #name {
+  padding-left: 16px;
+  width: 327px;
+  height: 48px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+}
+
+#message {
+  width: 327px;
+  height: 114px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid #60c095;
+  border-radius: 4px;
+}
+
+#resizer-icon {
+  position: absolute;
+  top: 725px;
+  right: 55.5px;
+  width: 10.5px;
+  height: 10.5px;
+  background-image: url("images/Icon-resizer.png");
+  background-size: contain;
+}
+
+#submit-btn {
+  width: 130px;
+  height: 48px;
+  border-width: 0;
+  border-style: none;
+  border-color: unset;
+  border-image: unset;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+
+#email-link {
+  margin-top: 7px;
+  width: 381px;
+  height: 38px;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526e;
+}
+
+#footer {
+  position: absolute;
+  width: 172.89px;
+  height: 18.92px;
+  left: 102px;
+  top: 6287px;
+}
+
+#footer-icons {
+  margin-top: 0;
+  margin-block-start: 0;
+}
+
+#form-bg {
+  width: 63px;
+  height: 146px;
+  background-image: url("images/form-bg.png");
+  background-size: contain;
+  position: absolute;
+  top: 759px;
+  right: 22px;
+}
 
 /*#endregion */
