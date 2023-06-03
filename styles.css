@@ -16,6 +16,7 @@ h1 {
 html body {
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin: 0;
   padding: 0;
   overflow: unset;
@@ -37,7 +38,7 @@ main {
 }
 
 #appbar {
-  width: 100%;
+  width: 375px;
   height: 44px;
   display: flex;
   justify-content: space-between;
@@ -75,7 +76,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 375px;
   height: 48px;
 }
 
@@ -407,7 +408,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 64px 24px;
+  padding: 64px 0;
   gap: 58px;
   position: absolute;
   width: 375px;
@@ -567,7 +568,7 @@ button {
 
 #about-bg-1 {
   position: absolute;
-  right: 24px;
+  right: 0;
   top: 15px;
   z-index: -1;
   width: 68px;
@@ -578,7 +579,7 @@ button {
 
 #about-bg-2 {
   position: absolute;
-  left: 30px;
+  left: 0;
   top: 337px;
   z-index: -1;
   width: 71px;
@@ -595,10 +596,10 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 64px 24px;
+  padding: 64px 0;
   gap: 58px;
   position: absolute;
-  width: 100%;
+  width: 375px;
   height: 879px;
   top: 5374px;
 }
@@ -670,7 +671,7 @@ button {
 #resizer-icon {
   position: absolute;
   top: 725px;
-  right: 55.5px;
+  right: 32.5px;
   width: 10.5px;
   height: 10.5px;
   background-image: url("images/Icon-resizer.png");
@@ -709,7 +710,6 @@ button {
   position: absolute;
   width: 172.89px;
   height: 18.92px;
-  left: 102px;
   top: 6287px;
 }
 
@@ -725,7 +725,8 @@ button {
   background-size: contain;
   position: absolute;
   top: 759px;
-  right: 22px;
+  right: 0;
+  z-index: -1;
 }
 
 /* #endregion */
