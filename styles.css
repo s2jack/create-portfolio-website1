@@ -54,7 +54,7 @@ main {
   text-align: center;
 }
 
-/*#region Header Section*/
+/* #region Header Section */
 
 #statusbar {
   width: 66.66px;
@@ -92,9 +92,9 @@ main {
   height: 40px;
 }
 
-/*#endregion */
+/* #endregion */
 
-/*#region Home Section*/
+/* #region Home Section */
 
 #home {
   display: flex;
@@ -210,9 +210,9 @@ a {
   background-size: cover;
 }
 
-/*#endregion */
+/* #endregion */
 
-/*#region Works Section*/
+/* #region Works Section */
 
 #works {
   display: flex;
@@ -273,7 +273,7 @@ h2 {
   width: 327px;
   height: 474px;
   background-color: #ebf0ee;
-  border: 1px solid #D0D9D4;
+  border: 1px solid #d0d9d4;
   border-radius: 8px;
 }
 
@@ -310,7 +310,7 @@ h2 {
   margin-top: 252px;
   background-color: #fff;
   border-radius: 8px;
-  gap:16px;
+  gap: 16px;
 }
 
 h3 {
@@ -368,7 +368,7 @@ h3 {
   font-weight: 500;
 }
 
-.green-btn{
+.green-btn {
   background-color: #36b37f;
   border-radius: 4px;
   font-family: Inter, Arial, Helvetica, sans-serif;
@@ -377,7 +377,7 @@ h3 {
 }
 
 .green-btn:hover {
-  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
 }
 
 .green-btn:active {
@@ -391,9 +391,9 @@ button {
   border-width: 0;
 }
 
-/*#endregion */
+/* #endregion */
 
-/*#region About Section*/
+/* #region About Section */
 
 #about {
   display: flex;
@@ -411,7 +411,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 24px;
   width: 351px;
   height: 338px;
@@ -431,7 +431,7 @@ button {
   font-size: 20px;
   line-height: 32px;
   text-align: center;
-  color: #42526E;
+  color: #42526e;
 }
 
 #resume-btn {
@@ -481,7 +481,7 @@ button {
   height: 80px;
   border-radius: 50%;
   background-color: #fff;
-  box-shadow: 0px 16px 24px rgba(37, 47, 137, 0.08);
+  box-shadow: 0 16px 24px rgba(37, 47, 137, 0.08);
 }
 
 .tech-icon {
@@ -534,7 +534,7 @@ button {
   display: flex;
   justify-content: center;
   gap: 8px;
-  width: 327px; 
+  width: 327px;
   height: auto;
   list-style-type: unset;
   margin-block-start: 0;
@@ -542,7 +542,7 @@ button {
   padding-inline-start: 0;
 }
 
-.tech-tag-elem{
+.tech-tag-elem {
   display: flex;
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-weight: 600;
@@ -579,9 +579,9 @@ button {
   background-image: url("images/about-bg2.png");
 }
 
-/*#endregion */
+/* #endregion */
 
-/*#region Form Section */
+/* #region Form Section */
 
 #form {
   display: flex;
@@ -613,19 +613,20 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 24px;
   width: 327px;
   height: 427px;
 }
 
-#email::placeholder, #name::placeholder {
+#email::placeholder,
+#name::placeholder {
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
   color: #6b778c;
-  font-style: italic; 
+  font-style: italic;
 }
 
 #message::placeholder {
@@ -638,7 +639,8 @@ button {
   padding: 12px;
 }
 
-#email, #name {
+#email,
+#name {
   padding-left: 16px;
   width: 327px;
   height: 48px;
@@ -718,4 +720,4 @@ button {
   right: 22px;
 }
 
-/*#endregion */
+/* #endregion */
