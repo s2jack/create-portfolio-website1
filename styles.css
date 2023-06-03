@@ -19,6 +19,7 @@ html body {
   margin: 0;
   padding: 0;
   overflow: unset;
+  align-items: center;
 }
 
 main {
