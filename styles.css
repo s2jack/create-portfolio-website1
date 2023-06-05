@@ -341,14 +341,15 @@ h3 {
 }
 
 .pr-tags-ul {
-  display: flex;
+  width: 327px;
   padding-inline-start: 0;
   margin-block-start: 0;
   margin-block-end: 0;
-  gap: 8px;
 }
 
 .pr-tag {
+  margin: auto 4px;
+  float: left;
   list-style-type: none;
   background-color: #ebf0ee;
   height: auto;
