@@ -645,7 +645,6 @@ button {
   font-size: 15px;
   line-height: 24px;
   color: #42526e;
-  position: absolute;
 }
 
 #email,
@@ -657,6 +656,11 @@ button {
   background-color: #fff;
   border: 1px solid #d0d9d4;
   border-radius: 4px;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #42526e;
 }
 
 #message {
