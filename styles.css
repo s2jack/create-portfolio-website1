@@ -640,13 +640,15 @@ button {
 }
 
 #message::placeholder {
+  position: absolute;
+  top: 12px;
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
   color: #42526e;
   position: absolute;
-  padding: 12px;
+  padding-left: 12px;
 }
 
 #email,
