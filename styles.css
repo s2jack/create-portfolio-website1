@@ -8,6 +8,14 @@
   src: url(fonts\Roboto-Regular.ttf);
 }
 
+#nav-list,
+#nameinputs-cont,
+#form-bg2,
+#form-bg3,
+#form-bg4 {
+  display: none;
+}
+
 h1 {
   margin-block-start: 0;
   margin-block-end: 0;
@@ -124,6 +132,20 @@ main {
   color: #172b4d;
 }
 
+#name-txt {
+  overflow-wrap: break-word;
+  width: 260px;
+  display: block;
+  text-align: center;
+}
+
+#job-txt {
+  overflow-wrap: break-word;
+  width: 325px;
+  display: block;
+  text-align: center;
+}
+
 .green-text {
   color: #36b37e;
 }
@@ -131,13 +153,14 @@ main {
 #greeting-container {
   margin-top: 54px;
   width: 327px;
-  height: 211px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #message-cont {
   margin-top: 15px;
   width: 327px;
-  height: 164px;
   overflow-wrap: break-word;
   text-align: center;
 }
@@ -593,11 +616,12 @@ button {
 
 /* #region Form Section */
 
-#form {
+#contact {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 64px 0;
+  padding-top: 64px;
+  padding-bottom: 24px;
   gap: 58px;
   position: absolute;
   width: 375px;
@@ -606,6 +630,7 @@ button {
 }
 
 #form-message {
+  display: block;
   overflow-wrap: break-word;
   width: 327px;
   height: 363px;
@@ -630,7 +655,9 @@ button {
 }
 
 #email::placeholder,
-#name::placeholder {
+#name::placeholder,
+#firstname::placeholder,
+#lastname::placeholder {
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 15px;
@@ -679,16 +706,6 @@ button {
   padding-top: 12px;
 }
 
-#resizer-icon {
-  position: absolute;
-  top: 725px;
-  right: 32.5px;
-  width: 10.5px;
-  height: 10.5px;
-  background-image: url("images/Icon-resizer.png");
-  background-size: contain;
-}
-
 #submit-btn {
   width: 130px;
   height: 48px;
@@ -729,7 +746,7 @@ button {
   margin-block-start: 0;
 }
 
-#form-bg {
+#form-bg1 {
   width: 63px;
   height: 146px;
   background-image: url("images/form-bg.png");
