@@ -437,7 +437,7 @@
   border: 1px solid #dfe1e6;
 }
 
-.scale-anim {
+.scale-anim:hover {
   transform: scale(1.2);
   transition: ease-out 0.3s;
 }
