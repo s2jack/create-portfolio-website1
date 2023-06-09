@@ -23,7 +23,8 @@
 #hamburger-icon,
 #logo-placeholder,
 #name,
-#form-bg1 {
+#form-bg1,
+#email-link {
   display: none;
 }
 
@@ -39,11 +40,11 @@
 #nav-list li {
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-weight: 600;
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 1.05vw;
+  line-height: 1.39vw;
   text-align: center;
   color: #344563;
-  padding: 10px 12px;
+  padding: 0.7vw 0.86vw;
 }
 
 #toolbar {
@@ -63,18 +64,22 @@
   margin-right: 0;
 }
 
-#name-txt {
-  overflow-wrap: break-word;
-  width: 700px;
-  display: block;
-  text-align: center;
+.greetings {
+  line-height: 3.61vw;
 }
 
+#name-txt,
 #job-txt {
   overflow-wrap: break-word;
   width: 700px;
   display: block;
   text-align: center;
+  font-size: 2.77vw;
+}
+
+#support-txt {
+  font-size: 1.39vw;
+  line-height: 1.945vw;
 }
 
 #home {
@@ -83,6 +88,10 @@
 
 #message-cont {
   width: 62vw;
+}
+
+.section-header {
+  font-size: 2.78vw;
 }
 
 #works {
@@ -104,21 +113,58 @@
 }
 
 #action-btn-cont {
-  top: 602px;
+  top: 41.8vw;
 }
 
 #cards-cont {
+  grid-gap: 1.66vw;
   padding: 0 8px;
   margin-top: 0;
-  width: 1160px;
+  width: 80.5vw;
   height: 988px;
-  grid-template-rows: repeat(2, 474px);
-  grid-template-columns: repeat(3, 370px);
+  grid-template-rows: repeat(2, 33vw);
+  grid-template-columns: repeat(3, 25.7vw);
+}
+
+.project-info {
+  margin-top: 17.5vw;
+  height: 15.415vw;
+  gap: 1.11vw;
+}
+
+.project-name {
+  width: 20.485vw;
+  font-size: 1.66vw;
+  line-height: 2.22vw;
+  height: 3.95vw;
+  margin-top: 1.11vw;
+}
+
+.pr-tags-ul {
+  width: 22.7vw;
+}
+
+.pr-tag {
+  line-height: 1.11vw;
+  font-size: 0.83vw;
+  padding: 0.55vw 0.83vw;
+  margin: auto 0.275vw;
+}
+
+.green-btn {
+  border-radius: 4px;
+}
+
+#pr-detail-btn {
+  width: 8.47vw;
+  height: 3.33vw;
+  font-size: 1.18vw;
+  line-height: 0.97vw;
 }
 
 .card {
-  width: 369px;
-  height: 474px;
+  width: 25.7vw;
+  height: 33vw;
 }
 
 #card2 {
@@ -147,129 +193,211 @@
 }
 
 #about {
+  gap: 4vw;
   height: auto;
-  top: 2331px;
+  top: 161.87vw;
   width: 100vw;
 }
 
 #about-cont {
   height: auto;
+  gap: 1.66vw;
 }
 
 #about-bg-2 {
-  width: 288.04px;
-  height: 126.82px;
+  width: 20vw;
+  height: 8.8vw;
   left: 0;
-  top: 171px;
+  top: 11.87vw;
   background-repeat: no-repeat;
   background-image: url("images/illustration-about-me-2-desktop.png");
 }
 
 #about-bg-1 {
-  width: 273px;
-  height: 245px;
-  right: -44px;
-  top: -20px;
+  width: 18.95vw;
+  height: 17vw;
+  right: -3.05vw;
+  top: -1.39vw;
   background-repeat: no-repeat;
   background-image: url("images/illustration-about-me-1-desktop.png");
 }
 
 #about-text {
+  font-size: 1.39vw;
+  line-height: 2.22vw;
   width: 54vw;
   height: auto;
 }
 
+#resume-btn {
+  width: 10.7vw;
+  height: 3.33vw;
+  font-size: 1.18vw;
+}
+
 #tech-cont {
   height: auto;
-  width: 1172px;
+  width: 81.39vw;
   flex-direction: row;
   justify-content: center;
+  gap: 1.66vw;
+}
+
+.tech-card {
+  align-items: center;
+  width: 25.7vw;
+  height: 22vw;
+}
+
+#tech-icon-cont {
+  width: 25.7vw;
+  height: 8.89vw;
+  margin-top: 1.11vw;
+}
+
+.tech-icon-bg {
+  width: 5.55vw;
+  height: 5.55vw;
+  box-shadow: 0 1.11vw 1.66vw rgba(37, 47, 137, 0.08);
+}
+
+.tech-icon {
+  width: 3.33vw;
+  height: 3.33vw;
+}
+
+.techs-title-tag {
+  gap: 1.66vw;
+  width: 25.7vw;
+}
+
+.tech-title {
+  font-size: 1.66vw;
+  line-height: 2.22vw;
+  width: 25.7vw;
+  height: 2.22vw;
+}
+
+.tech-tags-cont,
+.tech-tags {
+  width: 25.7vw;
+  gap: 0.55vw;
+}
+
+.tech-tag-elem {
+  font-size: 0.83vw;
+  line-height: 1.11vw;
+  border-radius: 0.55vw;
+  padding: 1.11vw;
 }
 
 #contact {
-  top: 3054px;
+  top: 214vw;
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
-  width: 1171px;
-  height: 490px;
-  padding: 80px 0;
-  gap: 24px;
+  width: 81.3vw;
+  height: 34vw;
+  padding: 5.55vw 0;
+  gap: 1.66vw;
 }
 
 #form-message {
   display: flex;
   align-items: center;
-  width: 463px;
-  height: 256px;
-  font-size: 30px;
-  text-align: center;
-  top: 50%;
+  width: 32.15vw;
+  height: 17.78vw;
+  font-size: 2vw;
+  line-height: 3.61vw;
+  text-align: unset;
 }
 
 #contact-form {
   align-items: unset;
-  width: 684px;
+  width: 47.5vw;
+  gap: 1.66vw;
+  height: 29.65vw;
 }
 
 #nameinputs-cont {
   display: flex;
   justify-content: space-between;
-  gap: 24px;
+  gap: 1.66vw;
 }
 
 #email {
   width: 100%;
+  padding-left: 1.11vw;
+  height: 3.33vw;
+  font-size: 1.11vw;
+  line-height: 1.66vw;
 }
 
 #firstname,
 #lastname {
-  padding-left: 16px;
-  width: 330px;
-  height: 48px;
+  padding-left: 1.11vw;
+  width: 22.92vw;
+  height: 3.33vw;
   box-sizing: border-box;
   background-color: #fff;
   border: 1px solid #d0d9d4;
   border-radius: 4px;
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
+  font-size: 1.11vw;
+  line-height: 1.66vw;
   color: #42526e;
 }
 
 #message {
   width: 100%;
-  height: 114px;
+  height: 7.91vw;
   box-sizing: border-box;
   background-color: #fff;
   border: 1px solid #60c095;
   border-radius: 4px;
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
+  font-size: 1.11vw;
+  line-height: 1.66vw;
   color: #42526e;
-  padding-left: 12px;
-  padding-top: 12px;
+  padding-left: 0.86vw;
+  padding-top: 0.86vw;
 }
 
-.tech-card {
-  align-items: center;
-  width: 369px;
+#email::placeholder,
+#firstname::placeholder,
+#lastname::placeholder {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1.11vw;
+  line-height: 1.66vw;
+  color: #6b778c;
+  font-style: italic;
 }
 
-#email-link {
-  display: none;
+#message::placeholder {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1.11vw;
+  line-height: 1.66vw;
+  color: #42526e;
+}
+
+#submit-btn {
+  width: 9vw;
+  height: 3.33vw;
+  font-size: 1.19vw;
+  line-height: 1.66vw;
 }
 
 #form-bg2 {
   display: block;
   position: absolute;
-  width: 130.28px;
-  height: 105.85px;
-  left: 144px;
-  top: 446px;
+  width: 9.03vw;
+  height: 7.35vw;
+  left: 10vw;
+  top: 31vw;
   background-repeat: no-repeat;
   background-size: contain;
   background-image: url("images/illustration-2-contact-form-desktop.png");
@@ -279,10 +407,10 @@
   background-repeat: no-repeat;
   display: block;
   position: absolute;
-  width: 236px;
-  height: 304.09px;
-  left: -128.04px;
-  top: 315px;
+  width: 16.39vw;
+  height: 21.11vw;
+  left: -8.9vw;
+  top: 21.87vw;
   background-size: contain;
   background-image: url("images/illustration-3-contact-form-desktop.png");
 }
@@ -290,10 +418,10 @@
 #form-bg4 {
   display: block;
   position: absolute;
-  width: 316.16px;
-  height: 450.96px;
-  right: -242px;
-  top: 141px;
+  width: 21.95vw;
+  height: 31.31vw;
+  right: -16.8vw;
+  top: 9.8vw;
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url("images/illustration-4-contact-form-desktop.png");
@@ -303,8 +431,8 @@
   width: 100vw;
   display: flex;
   justify-content: center;
-  top: 3661px;
-  padding: 26px;
+  top: 255.23vw;
+  padding: 1.8vw;
   border: 1px solid #dfe1e6;
 }
 
