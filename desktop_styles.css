@@ -140,9 +140,8 @@
   margin-top: 1.11vw;
 }
 
-
 .pr-tags-ul {
-  width: 22.70vw;
+  width: 22.7vw;
 }
 
 .pr-tag {
@@ -421,7 +420,7 @@
   position: absolute;
   width: 21.95vw;
   height: 31.31vw;
-  right: -16.80vw;
+  right: -16.8vw;
   top: 9.8vw;
   background-size: contain;
   background-repeat: no-repeat;
@@ -433,7 +432,7 @@
   display: flex;
   justify-content: center;
   top: 255.23vw;
-  padding: 1.80vw;
+  padding: 1.8vw;
   border: 1px solid #dfe1e6;
 }
 
