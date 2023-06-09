@@ -108,17 +108,55 @@
 }
 
 #cards-cont {
+  grid-gap: 1.66vw;
   padding: 0 8px;
   margin-top: 0;
-  width: 1160px;
+  width: 80.5vw;
   height: 988px;
-  grid-template-rows: repeat(2, 474px);
-  grid-template-columns: repeat(3, 370px);
+  grid-template-rows: repeat(2, 33vw);
+  grid-template-columns: repeat(3, 25.7vw);
+}
+
+.project-info {
+  margin-top: 17.5vw;
+  height: 15.415vw;
+  gap: 1.11vw;
+}
+
+.project-name {
+  width: 20.485vw;
+  font-size: 1.66vw;
+  line-height: 2.22vw;
+  height: 3.95vw;
+  margin-top: 1.11vw;
+}
+
+
+.pr-tags-ul {
+  width: 22.70vw;
+}
+
+.pr-tag {
+  line-height: 1.11vw;
+  font-size: 0.83vw;
+  padding: 0.55vw 0.83vw;
+  margin: auto 0.275vw;
+}
+
+.green-btn {
+  border-radius: 4px;
+}
+
+#pr-detail-btn {
+  width: 8.47vw;
+  height: 3.33vw;
+  font-size: 1.18vw;
+  line-height: 0.97vw;
 }
 
 .card {
-  width: 369px;
-  height: 474px;
+  width: 25.7vw;
+  height: 33vw;
 }
 
 #card2 {
@@ -148,7 +186,7 @@
 
 #about {
   height: auto;
-  top: 2331px;
+  top: 161.87vw;
   width: 100vw;
 }
 
@@ -157,19 +195,19 @@
 }
 
 #about-bg-2 {
-  width: 288.04px;
-  height: 126.82px;
+  width: 20vw;
+  height: 8.8vw;
   left: 0;
-  top: 171px;
+  top: 11.87vw;
   background-repeat: no-repeat;
   background-image: url("images/illustration-about-me-2-desktop.png");
 }
 
 #about-bg-1 {
-  width: 273px;
-  height: 245px;
-  right: -44px;
-  top: -20px;
+  width: 18.95vw;
+  height: 17vw;
+  right: -3.05vw;
+  top: -1.39vw;
   background-repeat: no-repeat;
   background-image: url("images/illustration-about-me-1-desktop.png");
 }
@@ -187,14 +225,14 @@
 }
 
 #contact {
-  top: 3054px;
+  top: 212vw;
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
-  width: 1171px;
+  width: 81.3vw;
   height: 490px;
-  padding: 80px 0;
-  gap: 24px;
+  padding: 5.55vw 0;
+  gap: 1.66vw;
 }
 
 #form-message {
