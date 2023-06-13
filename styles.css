@@ -12,7 +12,8 @@
 #nameinputs-cont,
 #form-bg2,
 #form-bg3,
-#form-bg4 {
+#form-bg4,
+label {
   display: none;
 }
 
