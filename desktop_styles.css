@@ -440,3 +440,7 @@
   transform: scale(1.2);
   transition: ease-out 0.3s;
 }
+
+.innerTxt {
+  display: none;
+}
