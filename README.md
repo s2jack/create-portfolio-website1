@@ -5,6 +5,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+  - [:movie_camera: Demonstration](#demonstration)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -52,9 +53,14 @@ This project only works client side right now.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Coming soon...</a>
+> <a href="https://s2jack.github.io">https://s2jack.github.io</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## :movie_camera: Demonstration Video <a name="demonstration"></a>
+
+[![Watch the video]](https://www.loom.com/share/607eb173f9a941d5b61544ba48836632)
+
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
