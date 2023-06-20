@@ -122,8 +122,12 @@
   grid-template-columns: repeat(3, 25.7vw);
 }
 
+.project-img {
+  height: 18.4vw;
+}
+
 .project-info {
-  margin-top: 17.5vw;
+  margin-top: -0.815vw;
   height: 15.415vw;
   gap: 1.11vw;
 }
