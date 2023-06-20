@@ -385,6 +385,8 @@ h3 {
 }
 
 .pr-tags-ul {
+  display: flex;
+  justify-content: center;
   width: 327px;
   padding-inline-start: 0;
   margin-block-start: 0;
