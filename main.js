@@ -6,6 +6,7 @@ const logo = document.querySelector('#logo-placeholder')
 const menuElements = document.querySelector('#nav-list')
 const closeIcon = document.querySelector('#close-Icon')
 const body = document.getElementsByTagName('body')[0]
+const worksSection = document.querySelector('#works');
 
 const projectsData = [
   {
