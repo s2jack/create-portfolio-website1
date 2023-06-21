@@ -24,7 +24,10 @@
 #logo-placeholder,
 #name,
 #form-bg1,
-#email-link {
+#email-link,
+#popUpClose,
+.prImgHolder,
+.pr-description {
   display: none;
 }
 
@@ -448,13 +451,14 @@
 .details-cont {
   background-color: unset;
   position: fixed;
+  width: 920px;
 }
 
 .details-bg-desktop {
   display: block;
   mix-blend-mode: multiply;
   width: 100vw;
-  height: 100vh;
+  height: 1406px;
   background-color: #c1c7d0;
   position: fixed;
   top: 0;
@@ -462,16 +466,70 @@
 }
 
 .details-bg {
-  background-color: #fff;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 16px;
+  padding: 24px;
   gap: 12px;
-  width: 920px;
-  height: 77%;
+  width: 64vw;
+  max-width: 920px;
+  height: 92%;
   border: 1px solid #ebecf0;
   box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
   border-radius: 8px;
+}
+
+#popUpClose-Desk {
+  position: fixed;
+  top: 48px;
+  right: 21.66666667vw;
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-image: url('images/close-popUp-Desktop-Icon.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.prImgHolder-Desk {
+  display: block;
+  width: 100%;
+  height: 606px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 25px;
+}
+
+.pr-description-desk {
+  display: block;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #344563;
+  text-align: justify;
+}
+
+.project-title {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  width: 68%;
+}
+
+.action-bar {
+  position: fixed;
+  left: 60.5vw;
+  top: 490px;
+  width: 20%;
+  justify-content: unset;
+  align-items: center;
+  gap: 12px;
+}
+
+.pr-det-btn-txt {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
 }

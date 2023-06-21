@@ -13,7 +13,10 @@
 #form-bg3,
 #form-bg4,
 label,
-.details-bg-desktop {
+.details-bg-desktop,
+#popUpClose-Desk,
+.prImgHolder-Desk,
+.pr-description-desk {
   display: none;
 }
 
@@ -837,6 +840,9 @@ button {
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
+  width: 100%;
+  height: auto;
+  
 }
 
 .popUpTech {
@@ -865,6 +871,7 @@ button {
 }
 
 .pr-description {
+  display: block;
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -907,6 +914,7 @@ button {
 
 .seeSource-btn,
 .seeLive-btn {
+  align-items: center;
   gap: 12px;
   display: flex;
   justify-content: space-between;
