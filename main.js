@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 const hamIcon = document.querySelector('#hamburger-icon')
 const mobMenu = document.querySelector('#hamburger-cont')
 const mobMenuCont = document.querySelector('#toolbar')
