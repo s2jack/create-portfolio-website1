@@ -16,7 +16,10 @@ label,
 .details-bg-desktop,
 #popUpClose-Desk,
 .prImgHolder-Desk,
-.pr-description-desk {
+.pr-description-desk,
+.title-btn-container,
+.project-title-desk,
+.action-bar-Desk {
   display: none;
 }
 
@@ -824,8 +827,8 @@ button {
 
 #popUpClose {
   position: absolute;
-  right: 28px;
-  top: 32px;
+  right: 7vw;
+  top: 36px;
   width: 40px;
   height: 40px;
   background-image: url('images/Close-popUp.png');

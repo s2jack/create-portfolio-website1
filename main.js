@@ -173,12 +173,12 @@ const detailsOpen = (project) => {
   const detailsBgDesktop = document.createElement('div')
   detailsBgDesktop.className = 'details-bg-desktop';
   worksSection.appendChild(detailsBgDesktop);
-  const closeIconDesk = document.createElement('div')
-  closeIconDesk.id = 'popUpClose-Desk'
-  detailsContainer.appendChild(closeIconDesk)
   const detailsBackground = document.createElement('div')
   detailsBackground.className = 'details-bg'
   detailsContainer.appendChild(detailsBackground)
+  const closeIconDesk = document.createElement('div')
+  closeIconDesk.id = 'popUpClose-Desk'
+  detailsBackground.appendChild(closeIconDesk)
   body.style = 'overflow: hidden;'
   const prImgHolderDesk = document.createElement('div')
   prImgHolderDesk.className = 'prImgHolder-Desk'
@@ -191,6 +191,38 @@ const detailsOpen = (project) => {
   const closeIcon = document.createElement('div')
   closeIcon.id = 'popUpClose'
   prImgHolder.appendChild(closeIcon)
+  const titleBtnContainer = document.createElement('div')
+  titleBtnContainer.className = 'title-btn-container'
+  detailsBackground.appendChild(titleBtnContainer)
+  const prTitleDesk = document.createElement('h3')
+  prTitleDesk.className = 'project-title-desk'
+  prTitleDesk.innerText = project['title'];
+  titleBtnContainer.appendChild(prTitleDesk)
+  const actionBarDesk = document.createElement('div')
+  actionBarDesk.className = 'action-bar-Desk'
+  titleBtnContainer.appendChild(actionBarDesk)
+  const seeLiveBtnDesk = document.createElement('a')
+  seeLiveBtnDesk.className = 'seeLive-btn green-btn'
+  seeLiveBtnDesk.href = project['link']
+  actionBarDesk.appendChild(seeLiveBtnDesk)
+  const seeLivetxtDesk = document.createElement('p')
+  seeLivetxtDesk.className = 'pr-det-btn-txt'
+  seeLivetxtDesk.innerText = 'See live'
+  seeLiveBtnDesk.appendChild(seeLivetxtDesk)
+  const seeLiveIconDesk = document.createElement('div')
+  seeLiveIconDesk.className = 'seeLive-icon'
+  seeLiveBtnDesk.appendChild(seeLiveIconDesk)
+  const seeSourceBtnDesk = document.createElement('a')
+  seeSourceBtnDesk.className = 'seeSource-btn green-btn'
+  seeSourceBtnDesk.href = project['github']
+  actionBarDesk.appendChild(seeSourceBtnDesk)
+  const seeSourcetxtDesk = document.createElement('p')
+  seeSourcetxtDesk.className = 'pr-det-btn-txt'
+  seeSourcetxtDesk.innerText = 'See source'
+  seeSourceBtnDesk.appendChild(seeSourcetxtDesk)
+  const seeSourceIconDesk = document.createElement('div')
+  seeSourceIconDesk.className = 'seeSource-icon'
+  seeSourceBtnDesk.appendChild(seeSourceIconDesk)
   const prTitle = document.createElement('h3')
   prTitle.className = 'project-title'
   prTitle.innerText  = project['title'];
@@ -244,7 +276,6 @@ const detailsOpen = (project) => {
   cardsContainer.style = 'filter: blur(12px)'
   const aboutSection = document.querySelector('#about')
   aboutSection.style = 'filter: blur(12px)'
-
 
   closeIconDesk.addEventListener('click', detailsClose);
   closeIcon.addEventListener('click', detailsClose);

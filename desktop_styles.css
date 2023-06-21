@@ -27,7 +27,9 @@
 #email-link,
 #popUpClose,
 .prImgHolder,
-.pr-description {
+.pr-description,
+.project-title,
+.action-bar {
   display: none;
 }
 
@@ -467,19 +469,19 @@
 
 .details-bg {
   padding: 24px;
-  gap: 12px;
+  gap: 24px;
   width: 64vw;
   max-width: 920px;
   height: 92%;
+  max-height: 1063px;
   border: 1px solid #ebecf0;
   box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
   border-radius: 8px;
 }
 
 #popUpClose-Desk {
-  position: fixed;
-  top: 48px;
-  right: 21.66666667vw;
+  margin-right: 0;
+  margin-left: auto;
   display: block;
   width: 25px;
   height: 25px;
@@ -494,7 +496,6 @@
   height: 606px;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 25px;
 }
 
 .pr-description-desk {
@@ -505,9 +506,11 @@
   line-height: 30px;
   color: #344563;
   text-align: justify;
+  margin-top: 12px;
 }
 
-.project-title {
+.project-title-desk {
+  display: block;
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-weight: 600;
   font-size: 32px;
@@ -516,12 +519,10 @@
   width: 68%;
 }
 
-.action-bar {
-  position: fixed;
-  left: 60.5vw;
-  top: 490px;
-  width: 20%;
-  justify-content: unset;
+.action-bar-Desk {
+  display: flex;
+  width: 34%;
+  justify-content: flex-end;
   align-items: center;
   gap: 12px;
 }
@@ -533,3 +534,15 @@
   line-height: 20px;
   color: #fff;
 }
+
+.title-btn-container {
+  display: flex;
+  align-items: self-start;
+  min-height: 82px;
+  max-height: 165px;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+}
+
+
