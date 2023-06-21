@@ -10,56 +10,68 @@ const worksSection = document.querySelector('#works');
 
 const projectsData = [
   {
-    title: 'Multi-Post Stories Gain+Glory',
+    name: 'Multi-Post Stories Gain+Glory',
+    title: 'Keeping track of hundreds of components',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s." ,
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.\n\n Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s." ,
     technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
-    image: 'images/pr01img.png',
+    image: 'images/project-image-mobile1.png',
+    desktopImage: '',
     link: 'https://s2jack.github.io/',
     github: 'https://github.com/s2jack/create-portfolio-website1',
   },
   {
-    title: 'Multi-Post Stories Gain+Glory',
+    name: 'Multi-Post Stories Gain+Glory',
+    title: 'Keeping track of hundreds of components',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s." ,
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.\n\n Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s." ,
     technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
-    image: 'images/pr02img.png',
+    image: 'images/project-image-mobile1.png',
+    desktopImage: '',
     link: 'https://s2jack.github.io/',
     github: 'https://github.com/s2jack/create-portfolio-website1',
   },
   {
-    title: 'Multi-Post Stories Gain+Glory',
+    name: 'Multi-Post Stories Gain+Glory',
+    title: 'Keeping track of hundreds of components',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s." ,
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.\n\n Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s." ,
     technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
-    image: 'images/pr03img.png',
+    image: 'images/project-image-mobile1.png',
+    desktopImage: '',
     link: 'https://s2jack.github.io/',
     github: 'https://github.com/s2jack/create-portfolio-website1',
   },
   {
-    title: 'Multi-Post Stories Gain+Glory',
+    name: 'Multi-Post Stories Gain+Glory',
+    title: 'Keeping track of hundreds of components',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s." ,
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.\n\n Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s." ,
     technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
-    image: 'images/pr04img.png',
+    image: 'images/project-image-mobile1.png',
+    desktopImage: '',
     link: 'https://s2jack.github.io/',
     github: 'https://github.com/s2jack/create-portfolio-website1',
   },
   {
-    title: 'Multi-Post Stories Gain+Glory',
+    name: 'Multi-Post Stories Gain+Glory',
+    title: 'Keeping track of hundreds of components',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s." ,
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.\n\n Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s." ,
     technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
-    image: 'images/pr05img.png',
+    image: 'images/project-image-mobile1.png',
+    desktopImage: '',
     link: 'https://s2jack.github.io/',
     github: 'https://github.com/s2jack/create-portfolio-website1',
   },
   {
-    title: 'Multi-Post Stories Gain+Glory',
+    name: 'Multi-Post Stories Gain+Glory',
+    title: 'Keeping track of hundreds of components',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s." ,
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.\n\n Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s." ,
     technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
-    image: 'images/pr06img.png',
+    image: 'images/project-image-mobile1.png',
+    desktopImage: '',
     link: 'https://s2jack.github.io/',
     github: 'https://github.com/s2jack/create-portfolio-website1',
   },
@@ -118,7 +130,7 @@ const loadWorksSection = (worksList) => {
     /* create project title, technologies and details button */
     const prName = document.createElement('h3');
     prName.className = 'project-name';
-    prName.innerText = worksList[i]["title"];
+    prName.innerText = worksList[i]["name"];
     prInfo.appendChild(prName);
     const prTags = document.createElement('ul');
     prTags.className = 'pr-tags-ul';
@@ -128,18 +140,90 @@ const loadWorksSection = (worksList) => {
       tagElement.className = 'pr-tag';
       tagElement.innerText = worksList[i]['technologies'][j];
       prTags.appendChild(tagElement);
-    };
+    }
     prInfo.appendChild(prTags);
     const detailsBtnContainer = document.createElement('div');
     detailsBtnContainer.id = 'btn-cont';
     prInfo.appendChild(detailsBtnContainer);
-    const detailsBtn = document.createElement('button');
-    detailsBtn.id = 'pr-detail-btn';
-    detailsBtn.className = 'green-btn';
+    let detailsBtn = document.createElement('button');
+    detailsBtn.id = 'pr-btn' + order.toString();
+    detailsBtn.className = 'green-btn pr-detail-btn';
     detailsBtn.innerText = 'See project';
     detailsBtnContainer.appendChild(detailsBtn);
+    const value = '#pr-btn' + order.toString();
+    document.querySelector(value).addEventListener('click', function() {detailsOpen(projectsData[i])});
   }
 }
+
+const detailsOpen = (project) => {
+  const detailsContainer = document.createElement('div')
+  detailsContainer.className = 'details-cont'
+  worksSection.appendChild(detailsContainer)
+  const detailsBackground = document.createElement('div')
+  detailsBackground.className = 'details-bg'
+  detailsContainer.appendChild(detailsBackground)
+  body.style = 'overflow: hidden;'
+  const prImgHolder = document.createElement('div')
+  prImgHolder.className = 'prImgHolder'
+  prImgHolder.style = 'background-Image : url(' + project['image'] + ');'
+  detailsBackground.appendChild(prImgHolder)
+  const closeIcon = document.createElement('div')
+  closeIcon.id = 'popUpClose'
+  prImgHolder.appendChild(closeIcon)
+  const prTitle = document.createElement('h3')
+  prTitle.className = 'project-title'
+  prTitle.innerText  = project['title'];
+  detailsBackground.appendChild(prTitle)
+  const prTechList = document.createElement('ul')
+  prTechList.className = 'popUpTech'
+  detailsBackground.appendChild(prTechList)
+  for (let v = 0; v < project['technologies'].length; v++) {
+    const prTechTag = document.createElement('li')
+    prTechTag.className = 'popUpTag'
+    prTechTag.innerText = project['technologies'][v];
+    prTechList.appendChild(prTechTag)
+  }
+  const prDescription = document.createElement('p')
+  prDescription.className = 'pr-description'
+  prDescription.innerText = project['description']
+  detailsBackground.appendChild(prDescription)
+  const actionBar = document.createElement('div')
+  actionBar.className = 'action-bar'
+  detailsBackground.appendChild(actionBar)
+  const seeLiveBtn = document.createElement('a')
+  seeLiveBtn.className = 'seeLive-btn green-btn'
+  seeLiveBtn.href = project['link']
+  actionBar.appendChild(seeLiveBtn)
+  const seeLivetxt = document.createElement('p')
+  seeLivetxt.className = 'pr-det-btn-txt'
+  seeLivetxt.innerText = 'See live'
+  seeLiveBtn.appendChild(seeLivetxt)
+  const seeLiveIcon = document.createElement('div')
+  seeLiveIcon.className = 'seeLive-icon'
+  seeLiveBtn.appendChild(seeLiveIcon)
+  const seeSourceBtn = document.createElement('a')
+  seeSourceBtn.className = 'seeSource-btn green-btn'
+  seeSourceBtn.href = project['github']
+  actionBar.appendChild(seeSourceBtn)
+  const seeSourcetxt = document.createElement('p')
+  seeSourcetxt.className = 'pr-det-btn-txt'
+  seeSourcetxt.innerText = 'See source'
+  seeSourceBtn.appendChild(seeSourcetxt)
+  const seeSourceIcon = document.createElement('div')
+  seeSourceIcon.className = 'seeSource-icon'
+  seeSourceBtn.appendChild(seeSourceIcon)
+
+
+
+  closeIcon.addEventListener('click', detailsClose);
+}
+
+const detailsClose = () => {
+  body.style = ''
+  const popUpWindow = document.querySelector('.details-cont')
+  popUpWindow.parentElement.removeChild(popUpWindow)
+}
+
 
 loadWorksSection(projectsData);
 
