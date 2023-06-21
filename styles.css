@@ -12,7 +12,8 @@
 #form-bg2,
 #form-bg3,
 #form-bg4,
-label {
+label,
+.details-bg-desktop {
   display: none;
 }
 
@@ -808,6 +809,7 @@ button {
   height: 94.75vh;
   border: 1px solid #def1e6;
   border-radius: 16px;
+  box-shadow: none;
 }
 
 .prImgHolder {
@@ -815,7 +817,7 @@ button {
   height: 26.32%;
   background-repeat: no-repeat;
   background-size: cover;
-  
+
 }
 
 #popUpClose {

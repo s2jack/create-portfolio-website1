@@ -13,7 +13,7 @@
   background-repeat: no-repeat;
   position: absolute;
   top: 0;
-  width: 100vw;
+  width: 103vw;
   height: 97vw;
   background-image: url("images/Header-llustration-desktop.png");
   z-index: -1;
@@ -214,9 +214,9 @@
 }
 
 #about-bg-1 {
-  width: 18.95vw;
+  width: 14.95vw;
   height: 17vw;
-  right: -3.05vw;
+  right: -1.75vw;
   top: -1.39vw;
   background-repeat: no-repeat;
   background-image: url("images/illustration-about-me-1-desktop.png");
@@ -418,9 +418,9 @@
 #form-bg4 {
   display: block;
   position: absolute;
-  width: 21.95vw;
+  width: 12.95vw;
   height: 31.31vw;
-  right: -16.8vw;
+  right: -11vw;
   top: 9.8vw;
   background-size: contain;
   background-repeat: no-repeat;
@@ -443,4 +443,35 @@
 
 .innerTxt {
   display: none;
+}
+
+.details-cont {
+  background-color: unset;
+  position: fixed;
+}
+
+.details-bg-desktop {
+  display: block;
+  mix-blend-mode: multiply;
+  width: 100vw;
+  height: 100vh;
+  background-color: #c1c7d0;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.details-bg {
+  background-color: #fff;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 12px;
+  width: 920px;
+  height: 77%;
+  border: 1px solid #ebecf0;
+  box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+  border-radius: 8px;
 }

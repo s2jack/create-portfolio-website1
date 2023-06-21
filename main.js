@@ -134,7 +134,7 @@ const loadWorksSection = (worksList) => {
     prInfo.appendChild(prName);
     const prTags = document.createElement('ul');
     prTags.className = 'pr-tags-ul';
-      /* create list elements as same as with the object property in the data*/
+    /* create list elements as same as with the object property in the data*/
     for (let j = 0; j < worksList[i]['technologies'].length; j++) {
       const tagElement = document.createElement('li');
       tagElement.className = 'pr-tag';
@@ -159,6 +159,9 @@ const detailsOpen = (project) => {
   const detailsContainer = document.createElement('div')
   detailsContainer.className = 'details-cont'
   worksSection.appendChild(detailsContainer)
+  const detailsBgDesktop = document.createElement('div')
+  detailsBgDesktop.className = 'details-bg-desktop';
+  worksSection.appendChild(detailsBgDesktop);
   const detailsBackground = document.createElement('div')
   detailsBackground.className = 'details-bg'
   detailsContainer.appendChild(detailsBackground)
@@ -222,6 +225,8 @@ const detailsClose = () => {
   body.style = ''
   const popUpWindow = document.querySelector('.details-cont')
   popUpWindow.parentElement.removeChild(popUpWindow)
+  const popUpBg= document.querySelector('.details-bg-desktop')
+  popUpBg.parentElement.removeChild(popUpBg)
 }
 
 
