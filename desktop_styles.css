@@ -472,7 +472,7 @@
   gap: 24px;
   width: 64vw;
   max-width: 920px;
-  height: 92%;
+  height: 94%;
   max-height: 1063px;
   border: 1px solid #ebecf0;
   box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
@@ -483,10 +483,10 @@
   margin-right: 0;
   margin-left: auto;
   display: block;
-  width: 40px;
-  height: 40px;
+  width: 33px;
+  height: 33px;
   background-image: url('images/close-popUp-Desktop-Icon.png');
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 
