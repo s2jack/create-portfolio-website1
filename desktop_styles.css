@@ -13,7 +13,7 @@
   background-repeat: no-repeat;
   position: absolute;
   top: 0;
-  width: 100vw;
+  width: 103vw;
   height: 97vw;
   background-image: url("images/Header-llustration-desktop.png");
   z-index: -1;
@@ -24,7 +24,12 @@
 #logo-placeholder,
 #name,
 #form-bg1,
-#email-link {
+#email-link,
+#popUpClose,
+.prImgHolder,
+.pr-description,
+.project-title,
+.action-bar {
   display: none;
 }
 
@@ -122,8 +127,12 @@
   grid-template-columns: repeat(3, 25.7vw);
 }
 
+.project-img {
+  height: 18.4vw;
+}
+
 .project-info {
-  margin-top: 17.5vw;
+  margin-top: -0.815vw;
   height: 15.415vw;
   gap: 1.11vw;
 }
@@ -151,7 +160,7 @@
   border-radius: 4px;
 }
 
-#pr-detail-btn {
+.pr-detail-btn {
   width: 8.47vw;
   height: 3.33vw;
   font-size: 1.18vw;
@@ -210,9 +219,9 @@
 }
 
 #about-bg-1 {
-  width: 18.95vw;
+  width: 14.95vw;
   height: 17vw;
-  right: -3.05vw;
+  right: -1.75vw;
   top: -1.39vw;
   background-repeat: no-repeat;
   background-image: url("images/illustration-about-me-1-desktop.png");
@@ -414,9 +423,9 @@
 #form-bg4 {
   display: block;
   position: absolute;
-  width: 21.95vw;
+  width: 12.95vw;
   height: 31.31vw;
-  right: -16.8vw;
+  right: -11vw;
   top: 9.8vw;
   background-size: contain;
   background-repeat: no-repeat;
@@ -439,4 +448,99 @@
 
 .innerTxt {
   display: none;
+}
+
+.details-cont {
+  background-color: unset;
+  position: fixed;
+  width: 920px;
+}
+
+.details-bg-desktop {
+  display: block;
+  mix-blend-mode: multiply;
+  width: 100vw;
+  height: 1406px;
+  background-color: #c1c7d0;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.details-bg {
+  padding: 24px;
+  gap: 24px;
+  width: 64vw;
+  max-width: 920px;
+  height: 92%;
+  max-height: 1063px;
+  border: 1px solid #ebecf0;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  border-radius: 8px;
+}
+
+#popUpClose-Desk {
+  margin-right: 0;
+  margin-left: auto;
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-image: url('images/close-popUp-Desktop-Icon.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.prImgHolder-Desk {
+  display: block;
+  width: 100%;
+  height: 606px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pr-description-desk {
+  display: block;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #344563;
+  text-align: justify;
+  margin-top: 12px;
+}
+
+.project-title-desk {
+  display: block;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 2.22222vw;
+  line-height: 3vw;
+  color: #172b4d;
+  width: 68%;
+}
+
+.action-bar-Desk {
+  display: flex;
+  width: 66%;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+}
+
+.pr-det-btn-txt {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 1.1111vw;
+  line-height: 1.33vw;
+  color: #fff;
+}
+
+.title-btn-container {
+  display: flex;
+  align-items: self-start;
+  min-height: 82px;
+  max-height: 165px;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
 }
